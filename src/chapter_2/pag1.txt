@@ -1,0 +1,52 @@
+
+Every tester’s goal is to have confidence in the software through continuous testing. We can sleep better at night knowing that less bugs in products will be experienced because an extensive testing process is in place. Selecting the right testing strategies is at least as important as testing enough.
+
+I was once told to create a test plan for a complex networking device. The goal was to achieve 100% coverage of different connections and their combinations. A quick calculation revealed that setting up and executing such tests would take more than 40 thousand years.
+
+“The more complex your systems are, the more important it is to find a testing strategy that is both viable and successful.“
+
+Two testing viewpoints and approaches to testing that have popped up frequently recently are known as end-to-end testing and regression testing.
+
+The purpose of regression testing is to verify that what worked yesterday still works today after any changes that may have been made.
+
+In end-to-end testing, one tests a business process as a whole, hence “end to end”.
+
+It is a common misconception to consider these two strategies as the same because regression testing often involves end-to-end testing, too. It would be a mistake, however, to assume that end-to-end testing were regression tests only.
+
+Regression testing should happen at all levels of testing, starting from the unit tests. End-to-end testing encompasses regression testing but testing end-to-end is rarely possible at the lower testing levels because you need to have all involved parts of the process in place to test it as a whole.
+
+Each type of testing serves a distinct and different purpose. Each has its own set of benefits, challenges, and their own characteristics that make them unique for different software goals.
+
+End-To-End Testing: What It Is—And What It Isn’t
+End-to-end testing means testing a workflow from end to end. Many workflows or business processes nowadays span across multiple applications and systems. This is why the traditional concepts of application testing or system testing may not be adequate alone anymore.
+
+End-to-end testing measures the functionality and performance of the business process. Given its nature, it may not always be possible to conduct end-to-end testing in a normal testing environment. Instead, a simulated or real post-release environment is often necessary.
+
+End-to-end tests mostly identify problems, dependencies and integration issues.
+
+This type of testing may sound similar to user acceptance testing (UAT) because it allows testers to replicate end-user behavior, like mirroring a transaction through a website, a common consumer business process. However, in modern, rapid cycle development, end-to-end testing must be a continuous activity rather than a plain acceptance testing effort.
+
+The Benefits And Challenges Of End-To-End Testing
+Most businesses today run both on and off the cloud, which builds a strong case to closely monitor integrations. Typically, end-to-end testing is great for heterogeneous systems, allowing it to check every distinct system and layer, from the application’s front-end, back-end, and database.
+
+Yet, this is where we run into the challenge, which is that it requires testers to create and run a lot of long-lasting and repetitive tests, a laborious feat. The larger test suite means maintenance includes more time and effort. End-to-end testers often find themselves neck-deep in creation and maintenance of test environments.
+
+Since end-to-end testing aims to mimic user interactions, it can’t be done solely in the dev environment. However, the production environment isn’t always available and may be prone to testing interruptions like software updates.
+
+Large-scale test automation becomes a necessity in proper end-to-end testing. The testers should concentrate their efforts on designing tests and analyzing the test results rather than maintaining existing tests and configuring the tools and environments. A test automation platform that reduces maintenance load, automates the test setup, and is capable of parallel test execution can save a lot of effort and even more time.
+
+Regression Testing
+Regression testing comes in when the system has undergone changes. Anyone who has worked on software testing knows that changes in one place may cause malfunction somewhere else.
+
+You’d see regression testing performed in the wild after any of these scenarios: the addition of new features, bug fixes, updates, or any new releases. Testers can perform a partial or full selection of pre-existing test cases.
+
+Take this example:
+
+Imagine a business process that starts with a consumer purchasing something using a mobile app. The business process may be controlled by a Salesforce application, the payment placed by an external payment processing system, and the actual order processed in an  SAP application. Some stages of the process may involve human beings.
+
+The developers of the involved applications may develop their things independently of each other, maybe even without knowing about each other. An improvement in one application may cause an incompatibility problem in the other. This is where end-to-end testing and regression testing come together in a very meaningful way.
+
+Automating regressions tests in your release pipeline
+Regression testing makes a CI/CD pipeline complete because it evaluates the system’s stability with every change. No one likes to do reworks and see something done wrong after the software is already launched.
+
+But these benefits come with challenges, especially as software grows with your business. Old test cases will be run with new test cases, causing growth of the test suites and longer testing cycles. Automation, and eventually AI will help test execution, maintenance, and analysis.
