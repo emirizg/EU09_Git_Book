@@ -35,3 +35,9 @@ Since end-to-end testing aims to mimic user interactions, it can’t be done sol
 
 
 But these benefits come with challenges, especially as software grows with your business. Old test cases will be run with new test cases, causing growth of the test suites and longer testing cycles. Automation, and eventually AI will help test execution, maintenance, and analysis.
+
+page 2
+text
+
+page 2 more information
+
